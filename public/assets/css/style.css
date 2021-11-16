@@ -4995,7 +4995,8 @@ table.shop_attributes tbody{
 }
 .summary-item .row-in-form input[type=email], 
 .summary-item .row-in-form input[type=text], 
-.summary-item .row-in-form input[type=tel]{
+.summary-item .row-in-form input[type=tel]
+.summary-item .row-in-form input[type=password]{
     font-size: 13px;
     line-height: 19px;
     display: inline-block;
@@ -5025,7 +5026,7 @@ table.shop_attributes tbody{
     display: inline-block;
 }
 .payment-method .choose-payment-methods{
-    border-top: 1px solid #e6e6e6;
+    /* border-top: 1px solid #e6e6e6; */
     margin-top: 13px;
     padding-top: 12px;
 }
